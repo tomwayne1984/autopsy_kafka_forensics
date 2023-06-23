@@ -80,7 +80,9 @@ public class KafkaPanel extends javax.swing.JPanel implements DataContentViewer 
 		jSplitPane1.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
 		tableView.setModel(new javax.swing.table.DefaultTableModel(
-				new Object [][] {},
+				new Object [][] {
+
+				},
 				new String [] {
 						"Timestamp", "Key", "Value", "SHA-256 Hash", "Export", "KeyAbsoluteOffset", "KeyLength", "ValueAbsoluteOffset", "ValueLength"
 				}
